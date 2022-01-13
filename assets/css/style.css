@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 0;
+  padding: 0 5vw;
+}
+header > nav > h4 {
+  color: #01996D;
+}
+header > nav > ul {
+  list-style: none;
+  display: flex;
+}
+header > nav > ul > li {
+  margin: 0 3vw;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: #292929;
+}
+header > nav > ul > li #startTrial {
+  color: white;
+  padding: 1vh 1vw;
+  background: #01996D;
+  border-radius: 5px;
+}
+header > section {
+  padding: 0 5vw;
+  background: url("../images/header_bg.png") center/cover no-repeat;
+}
+header > section > div {
+  padding-top: 15vh;
+  padding-bottom: 3vh;
+}
+header > section > div > h2 {
+  color: #01996D;
+  font-size: 3rem;
+}
+header > section > a {
+  display: inline-block;
+  margin: 3vh 0 20vh 0;
+  padding: 1.5vh 2vw;
+  background-color: #01996D;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+main {
+  padding: 0 5vw;
+}
+main .homeSection1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vh 0;
+}
+main .homeSection1 > article:nth-of-type(1) > h2 {
+  color: #01996D;
+  font-size: 2rem;
+}
+main .homeSection1 > article:nth-of-type(2) {
+  margin-top: 2vh;
+}
+main .homeSection2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30vh;
+}
+main .homeSection2 > article {
+  margin: 5vw;
+}
+main .homeSection2 > article > div {
+  height: 70px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 4vw;
+}
+main .homeSection2 > article > p {
+  margin: 5vh 0;
+}
+main .homeSection2 > article > img {
+  width: 100%;
+  border-radius: 10px;
+}
+main .homeSection2 #number01 {
+  background: url("../images/01.png") left/contain no-repeat;
+}
+main .homeSection2 #number02 {
+  background: url("../images/02.png") left/contain no-repeat;
+  margin-top: 20vh;
+}
+main .homeSection2 #number03 {
+  background: url("../images/03.png") left/contain no-repeat;
+}
+
+footer {
+  padding: 9vh 0;
+  display: grid;
+  place-items: center;
+  background: #245852;
+}
+footer > ul {
+  display: flex;
+  list-style: none;
+}
+footer > ul > li {
+  color: white;
+  margin: 0 2vw;
+}
+footer > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
